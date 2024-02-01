@@ -1,4 +1,4 @@
-class Tasks:
+class ToDoList:
     """
     deal with the core components of a to-do: init -> initialization
 
@@ -18,7 +18,6 @@ class Tasks:
         :param task:
         :return:
         """
-        print("Got into the function")
         self.tasks.append(task)
 
         print(f"The task {task} has been created")
@@ -41,5 +40,19 @@ class Tasks:
                 print(f"{index}.{task}")
                 # 1. program
                 # 2. Homework
+
+    def remove_task(self, task_index):
+        """
+        This function will remove an alredy existing task based on its index in the lists
+        Will use the pop faction to pop the task.
+
+        :return:
+        """
+        if 1<= task_index<= len(self.tasks):
+            removed_task = self.tasks.pop(task_index - 1)
+            print(f"Task {removed_task} removed \n")
+
+        else:
+            print("Invalid task index")
     def test(self, task):
         print("This is just a test")
