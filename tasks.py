@@ -54,5 +54,3 @@ class ToDoList:
 
         else:
             print("Invalid task index")
-    def test(self, task):
-        print("This is just a test")
