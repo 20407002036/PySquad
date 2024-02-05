@@ -11,6 +11,7 @@ class ToDoList:
         :return:
         """
         self.tasks = []
+        # This is the list to hold the to-do's
 
     def add_task(self, task):
         """

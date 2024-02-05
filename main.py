@@ -14,6 +14,7 @@ print("4. Quit")
 print("Enter you choice (Either 1,2,3,4): ")
 
 while True:
+    # This will run infinitely till the loop is broken
     choice = input(">_ ")
     if choice == "1":
         # call the class, create task function
@@ -37,4 +38,3 @@ while True:
     else:
         # default when user enters value not 4 - 1
         print("Value must be 1,2,3 or 4")
-        pass
