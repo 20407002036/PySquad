@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+
+# students = ['James', 2, 'Emacs']
+
+# Nest lists
+
+students = ['James', 2,'Solomon', 'Jane', 'Kyle']
+# Range 3 params (start,last, steps)
+numbers = [range(0,100)]
+
+print(numbers)
+
+
+# print("Hello")
