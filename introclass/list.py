@@ -13,5 +13,4 @@ students.sort()
 print(students)
 
 
-# print("Hello")
 

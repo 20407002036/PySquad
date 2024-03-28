@@ -47,9 +47,13 @@ class ToDoList:
     def remove_task(self, task_index):
         """
         This function will remove an alredy existing task based on its index in the lists
-        Will use the pop faction to pop the task.
+        Will use the pop fuction to pop the task.
 
         :return:
+        """
+
+        """
+        if len(self.task) >= 1 
         """
         if 1<= task_index<= len(self.tasks):
             removed_task = self.tasks.pop(task_index - 1)
@@ -57,3 +61,4 @@ class ToDoList:
 
         else:
             print("Invalid task index")
+
